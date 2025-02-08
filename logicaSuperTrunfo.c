@@ -6,6 +6,35 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    int populacao;
+    float area;
+    float PIB;
+
+    printf("Digite a quantidade da população: \n");
+    scanf("%d", &populacao);
+    printf("Digite a Àrea: \n");
+    scanf("%f", &area);
+    printf("Digite o PIB: \n");
+    scanf("%f", &PIB);
+
+    if(populacao >= 100000){
+        printf("O país é populoso!\n");
+    }else {
+        printf("O a populacao desse país é baixo!\n");
+    }
+
+    if(area >= 50000){
+        printf("Esse paí tem uma grande Àrea!\n");
+    }else {
+        printf("Esse país é pequeno!\n");
+    }
+
+    if(PIB >= 1000000){
+        printf("Esse país tem um bom PIB!\n");
+    }else {
+        printf("Esse país não tem um bom PIB!\n");
+    }
+
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
